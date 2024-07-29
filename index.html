@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portofolio Agus Dzuriana Poetra</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <a href="#" class="logo">Agus</a>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="navbar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="https://api.whatsapp.com/send/?phone=6289650872288" class="contact-button" target="_blank">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-profile">
+        <img src="Assets/Foto Profil.jpg" alt="Foto Profil" class="profile-img">
+        <h2>Agus Dzuriana</h2>
+        <p>English Language Tutor and IT Enthusiast.</p>
+        <div class="social-icons">
+          <img src="Assets/Linkedin Logo.png" alt="Icon1" class="social-icon" id="linkedin-icon">
+          <img src="Assets/Logo FB.png" alt="Icon2" class="social-icon" id="facebook-icon">
+          <img src="Assets/Logo IG.png" alt="Instagram Icon" class="social-icon" id="instagram-icon">
+          <img src="Assets/Mail Logo.png" alt="Mail Icon" class="social-icon" id="mail-icon">
+        </div>
+      </div>
+      <div class="about-description">
+        <div>
+          <p>Hello there!</p>
+          <h3>I am a graduate of International Relations from Universitas Islam Indonesia with significant experience in English Education and International Relations. Passionate and persistent, I excel in both team and individual settings. I am also keen on learning digital productivity tools and AI to enhance work quality.</h3>
+          <a href="https://drive.google.com/file/d/1KjPIaJWK_w14Fxc89Tur5vmObbxGsPeH/view?usp=sharing" class="download-cv" target="_blank">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiences" class="section-box">
+    <div class="section-content">
+      <h2 class="heading-title">Experiences</h2>
+      <div class="experience-slider">
+        <button class="prev-button" onclick="prevSlide()">&#10094;</button>
+        <div class="experience-slide">
+          <img src="Assets/tutor.png" alt="English Language Tutor" class="experience-img">
+          <div class="experience-text">
+            <h3>English Language Tutor</h3>
+            <p>Access-English School, Pare | Jun 2017, Jan 2018 - Feb 2018</p>
+            <ul>
+              <li>Taught Speaking Class Level 1 for 2 Weeks.</li>
+              <li>Taught Public Speaking Class for 2 weeks.</li>
+              <li>Other related Classes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-slide">
+          <img src="Assets/lecturer.png" alt="Assistant Lecturer" class="experience-img">
+          <div class="experience-text">
+            <h3>Assistant Lecturer (Tutor) Department of IR UII</h3>
+            <ul>
+              <li>Practices of Diplomacy, January - June 2022</li>
+              <li>Enviromental Politics in IR, September 2022 - January 2023</li>
+              <li>Practices of Diplomacy, February 2023 - July 2023</li>
+            </ul>
+            <p>Assisted Lecturer for preparing the class and handling administrative and academic matter in the class.</p>
+          </div>
+        </div>
+        <div class="experience-slide">
+          <img src="Assets/laboratory.png" alt="Assistant of Diplomacy Laboratory" class="experience-img">
+          <div class="experience-text">
+            <h3>Assistant of Diplomacy Laboratory</h3>
+            <ul>
+              <li>Universitas Islam Indonesia | Sep 2021 - Sep 2022</li>
+              <li>Assisted Department of International Relations on conducting IR practices for students.</li>
+            </ul>
+          </div>
+        </div>
+        <button class="next-button" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section-box timeline">
+    <div class="section-content">
+      <h2 class="heading-title">Education</h2>
+      <div class="timeline-item">
+        <h3>Amanah Islamic Boarding School</h3>
+        <p>Junior and Senior Highschool | 2010-2016</p>
+        <p>Studied Languages and Islamic Subjects.</p>
+        <p>Concentrated on Natural Science, especially Physics.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Universitas Islam Indonesia</h3>
+        <p>Undergraduate Program | 2017-2021</p>
+        <p>Department of International Relations</p>
+        <p>Concentrated on Human Security</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-box">
+    <div class="section-content">
+      <h2 class="heading-title">Skills</h2>
+      <div class="skill-filters">
+        <a onclick="filterSkills('video-editing')">Video Editing</a>
+        <a onclick="filterSkills('graphic-design')">Graphic Design</a>
+        <a onclick="filterSkills('teaching')">Teaching</a>
+        <a onclick="filterSkills('public-speaking')">Public Speaking</a>
+      </div>
+      <div id="skill-content">
+        <!-- Video Editing Content -->
+        <div class="skill-item active" id="video-editing">
+          <p class="skill-description">I have editied audio and also audio of Podcast Episode by Sepik Sepik Santuy and Triple S Corp. As well as explanation video and podcast by Weuniverse Academy.
+          </p>
+          <p class="skill-description">
+            I edited video using Wondershare Filmora and edited the audio using Adobe Audition. I have created more than 10 episodes of podcast and some explanation videos.
+          </p>
+          <div class="skill-cards">
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/h8Qo1DNjNfY" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/9QBm42J6YDs" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/AqUJBwBgZG4" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/NHzKkYvGGV0" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/JRTPS2DhL2U" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/IleJMb747Qw" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- Graphic Design Content -->
+        <div class="skill-item" id="graphic-design">
+          <p class="skill-description">I have created some posts and designs for Ace English Course, Sepik Sepik Santuy Youtube Channel, and Triple S Media Corp.
+          </p>
+          <p class="skill-description">
+            I created them by using Canva Web App. In total, I have created more than 100 designs including instagram posts, instagram story, Youtube Thumbnail, Modules, Certificate, and Podcast cover art.
+          </p>
+          <div class="skill-cards">
+            <div class="skill-card-image">
+              <img src="Assets/design1.png" alt="Design 1" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design2.png" alt="Design 2" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design3.png" alt="Design 3" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design4.png" alt="Design 4" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design5.png" alt="Design 5" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design6.png" alt="Design 6" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design7.png" alt="Design 7" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/design8.png" alt="Design 8" style="width: 100%; height: auto;">
+            </div>
+          </div>
+        </div>
+        <!-- Teaching Content -->
+        <div class="skill-item" id="teaching">
+          <p class="skill-description">I Have been teaching in several places. not only in my own program but also in other's party program. i have been teaching English with different subject, including speaking, grammar, listening, pronunciation, conversation, and other specific program like English for Advertising or english at Dormitory. I also have been teaching for 2 years and i have taught more than 100 students in total. </p>
+          <div class="skill-cards">
+            <div class="skill-card-image">
+              <img src="Assets/tutor1.png" alt="Tutor 1" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor2.png" alt="Tutor 2" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor3.png" alt="Tutor  3" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor4.png" alt="Tutor 4" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor5.png" alt="Tutor 5" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor6.png" alt="Tutor 6" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor7.png" alt="Tutor 7" style="width: 100%; height: auto;">
+            </div>
+            <div class="skill-card-image">
+              <img src="Assets/tutor8.png" alt="Tutor 8" style="width: 100%; height: auto;">
+            </div>
+          </div>
+        </div>
+        <!-- Public Speaking Content -->
+        <div class="skill-item" id="public-speaking">
+          <p class="skill-description">I have moderated Ngalir Live Talk and Ngalir Talk show both online and offline which are conducted by Department of International Relations Universtias Islam Indonesia.
+          </p>
+          <p class="skill-description">
+            In total, I have moderated more than 5 episodes of the talks with remarkable national and international guests.
+          </p>
+          <div class="skill-cards">
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/LDoHKGG3blg" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/cB9gCugdR_U" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/IFL9EE0BdFg" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/LocRWIqkzk4" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/kviZj3GhtFU" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="skill-card">
+              <iframe width="300" height="169" src="https://www.youtube.com/embed/E4GZfbeWMY8" frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests" class="section-box">
+    <div class="section-content">
+      <h2 class="heading-title">Interests</h2>
+      <div class="word-cloud">
+        <span class="group-1">International Relations</span>
+        <span class="group-1">Foreign Policy</span>
+        <span class="group-1">Human Security</span>
+        <span class="group-2">English Teaching</span>
+        <span class="group-2">English Translation</span>
+        <span class="group-3">Product Development</span>
+        <span class="group-3">Game Development</span>
+        <span class="group-4">Graphic Design</span>
+        <span class="group-4">Video Editing</span>
+        <span class="group-4">Web Design</span>
+        <span class="group-5">Artificial Intelligence</span>
+        <span class="group-5">Information Technology</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="section-box">
+    <div class="section-content">
+      <h2 class="heading-title">Awards</h2>
+      <div class="awards-grid">
+        <div class="award-item">
+          <div class="award-card">
+            <img src="Assets/award1.png" alt="Award 1" class="award-img">
+            <p class="award-name">Best Head of Delegate in Short Diplomatic Course Department of IR UII (2018)</p>
+          </div>
+        </div>
+        <div class="award-item">
+          <div class="award-card">
+            <img src="Assets/award2.png" alt="Award 2" class="award-img">
+            <p class="award-name">Participants of 2019 Multi-stage Negotiation Simulation: UN Security Council by Indonesia Ministry of Foreign Affairs 2019</p>
+          </div>
+        </div>
+        <div class="award-item">
+          <div class="award-card">
+            <img src="Assets/award3.png" alt="Award 3" class="award-img">
+            <p class="award-name">Presenter at Civil society Network in Asia (CENA ) Summer School, in Okinawa, Japan. 2019</p>
+          </div>
+        </div>
+        <div class="award-item">
+          <div class="award-card">
+            <img src="Assets/award4.png" alt="Award 4" class="award-img">
+            <p class="award-name">Presenter at ICONISH UII 2021</p>
+          </div>
+        </div>
+        <div class="award-item">
+          <div class="award-card">
+            <img src="Assets/award5.png" alt="Award 5" class="award-img">
+            <p class="award-name">Host at Ngalir Talk Show and Ngalir Live Talk at Department of IR UII 2022</p>
+          </div>
+        </div>
+        <div class="award-item">
+          <div class="award-card">
+            <img src="Assets/award6.png" alt="Award 6" class="award-img">
+            <p class="award-name">Chairman of Diplomatic Course Department of IR UII 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+</html>
